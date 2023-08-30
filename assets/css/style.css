@@ -121,6 +121,7 @@ a.nav-link {
     height: 2px;
     margin-bottom: 20px;
     margin: 0 auto 20px;
+    border-radius: 50%;
 }
 .bi-whatsapp:hover {
     color: green;
