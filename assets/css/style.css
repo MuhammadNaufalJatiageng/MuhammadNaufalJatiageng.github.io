@@ -1,0 +1,156 @@
+* {
+    scroll-behavior: smooth;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: aliceblue;
+}
+main{
+    margin-top: 80px;
+}
+nav {
+    width: 100%;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.5);  
+    backdrop-filter: blur(5px);
+}
+hr {
+    margin-bottom: 10px;
+}
+
+/* Halaman Utama */
+#halamanUtama {
+    background-color: white;
+    padding: 14px;
+    border-radius: 20px;
+    box-shadow: 1px 7px 7px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 7px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 7px 7px 0px rgba(0,0,0,0.75);
+}
+#halamanUtama h4 {
+    font-size: 1.2rem;
+}
+#halamanUtama h1 {
+    font-size: 1.6rem;
+}
+#halamanUtama h6 {
+    font-size: 0.8rem;
+}
+/* End Halaman Utama */
+
+#tentangSaya,
+#project {
+    padding-top: 80px;
+}
+
+.navbar-brand {
+    font-family: 'Pattaya', sans-serif;
+    font-size: 1.5rem;
+}
+a.nav-link {
+    font-weight: bold;
+}
+.skill-wrapper, .skill-detail {
+    display: flex;
+    justify-content: start;
+    flex-flow: wrap;
+}
+.skill-dd-item {
+    border-bottom: 1px solid black;
+}
+.skill-item {
+    margin: 0 5px;
+}
+.skill-item img {
+    width: 75px;
+    aspect-ratio: 4/4;
+}
+.skill-item p {
+    text-align: center;
+    margin-top: 7px;
+}
+.skill-badge {
+    width: 25px;
+    margin-left: 4px;
+}
+
+.sertifikat-wrapper ul{
+    padding: 0;
+}
+.sertifikat-img img {
+    aspect-ratio: 4/4;
+    width: 60px;
+}
+.sertifikat-link {
+    margin-left: 10px;
+}
+.sertifikat-link a{
+    color: black;
+    text-decoration: none;
+}
+.sertifikat-link a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.card {
+    z-index: -100;
+}
+#kontak {
+    margin: 50px 0 10px;
+    padding-top: 10px;
+}
+#kontak ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+#kontak ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+#kontak ul li i {
+    font-size: 2.7rem;
+}
+.copyright {
+    background-color: black;
+    width: 75%;
+    height: 2px;
+    margin-bottom: 20px;
+    margin: 0 auto 20px;
+}
+.bi-whatsapp:hover {
+    color: green;
+}
+.bi-linkedin:hover {
+    color: rgb(0, 145, 255);
+}
+.copyright small a {
+    color: black;
+    text-decoration: none;
+}
+.copyright small a:hover {
+    color: blue;
+}
+
+/* Media Query */
+@media screen and (min-width: 400px) {
+    #halamanUtama {
+        padding: 20px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .project-wrapper {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: start;
+    }
+    
+    .card {
+        margin: 5px;
+        width: calc(100%/2.1);
+    }
+}
