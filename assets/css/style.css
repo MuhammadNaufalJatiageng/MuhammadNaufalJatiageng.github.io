@@ -1,3 +1,6 @@
+:root {
+    --blue: #176B87;
+}
 * {
     scroll-behavior: smooth;
     color: black;
@@ -18,10 +21,15 @@ nav {
 hr {
     margin-bottom: 10px;
 }
+.blue {color: var(--blue);}
 
 /* Halaman Utama */
 #halamanUtama {
-    background-color: white;
+    background: rgb(235,244,245);
+    background: linear-gradient(54deg, rgba(235,244,245,1) 0%, rgba(181,198,224,1) 100%);
+    /* dark */
+    /* background: rgb(149,249,195);
+    background: linear-gradient(54deg, rgba(149,249,195,1) 0%, rgba(11,56,102,1) 100%); */
     padding: 14px;
     border-radius: 20px;
     box-shadow: 1px 7px 7px 0px rgba(0,0,0,0.75);
@@ -30,6 +38,7 @@ hr {
 }
 #halamanUtama h4 {
     font-size: 1.2rem;
+    color: var(--blue);
 }
 #halamanUtama h1 {
     font-size: 1.6rem;
