@@ -17,6 +17,7 @@ nav {
     top: 0;
     background-color: rgba(255, 255, 255, 0.5);  
     backdrop-filter: blur(5px);
+    z-index: 100;
 }
 hr {
     margin-bottom: 10px;
@@ -38,6 +39,7 @@ hr {
 }
 #halamanUtama h4 {
     font-size: 1.2rem;
+    font-weight: bold;
     color: var(--blue);
 }
 #halamanUtama h1 {

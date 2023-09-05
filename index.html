@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Animate On Scroll from https://github.com/michalsnik/aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- my style -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- favicon -->
@@ -36,7 +38,7 @@
     </nav>
 
     <main class="container">
-      <section id="halamanUtama">
+      <section id="halamanUtama" data-aos="fade-down">
         <div>
           <h4>Hai, Saya</h4>
           <h1>Muhammad Naufal Jatiageng</h1>
@@ -48,10 +50,10 @@
       <section id="tentangSaya">
         <div class="intro">
           <h1 class="text-center"><b>Tentang <span class="blue">Saya</span></b></h1>
-          <p class="text-center mt-3">Saya mulai mempelajari tentang pengembangan website pada tahun 2022 dikarenakan ketertarikan saya pada dunia komputer. Saya memperdalam pengetahuan dengan mempelajari materi diinternet dan mengikuti beberapa pelatihan. </p>
+          <p class="text-center mt-3" data-aos="fade-up">Saya mulai mempelajari tentang pengembangan website pada tahun 2022 dikarenakan ketertarikan saya pada dunia komputer. Saya memperdalam pengetahuan dengan mempelajari materi diinternet dan mengikuti beberapa pelatihan. </p>
         </div>
 
-        <div class="skill mt-3">
+        <div class="skill mt-3" data-aos="fade-left">
           <h3 class="text-center"><i><b>Keahlian</b></i></h3>
 
           <div class="skill-dd-wrapper">
@@ -125,7 +127,7 @@
 
           <div class="sertifikat-wrapper mt-4">
             <ul>
-              <li class="d-flex align-items-center mt-2">
+              <li class="d-flex align-items-center mt-2"  data-aos="zoom-in">
                 <div class="sertifikat-img">
                   <img src="assets/img/company/mikrotik.svg" alt="">
                 </div>
@@ -136,7 +138,7 @@
                   <p>MikroTik Group</p>
                 </div>
               </li>
-              <li class="d-flex align-items-center mt-2">
+              <li class="d-flex align-items-center mt-2" data-aos="zoom-in" data-aos-delay="100">
                 <div class="sertifikat-img">
                   <img src="assets/img/company/pks.jpeg" alt="">
                 </div>
@@ -147,7 +149,7 @@
                   <p>PKS Digital School</p>
                 </div>
               </li>
-              <li class="d-flex align-items-center mt-2">
+              <li class="d-flex align-items-center mt-2" data-aos="zoom-in" data-aos-delay="200">
                 <div class="sertifikat-img">
                   <img src="assets/img/company/dicoding.jpeg" alt="">
                 </div>
@@ -158,7 +160,7 @@
                   <p>Dicoding Indonesia</p>
                 </div>
               </li>
-              <li class="d-flex align-items-center mt-2">
+              <li class="d-flex align-items-center mt-2" data-aos="zoom-in" data-aos-delay="300">
                 <div class="sertifikat-img">
                   <img src="assets/img/company/dicoding.jpeg" alt="">
                 </div>
@@ -169,7 +171,7 @@
                   <p>Dicoding Indonesia</p>
                 </div>
               </li>
-              <li class="d-flex align-items-center mt-2">
+              <li class="d-flex align-items-center mt-2" data-aos="zoom-in" data-aos-delay="400">
                 <div class="sertifikat-img">
                   <img src="assets/img/company/dicoding.jpeg" alt="">
                 </div>
@@ -189,7 +191,7 @@
         <h1 class="text-center"><b>Project</b></h1>
 
         <div class="project-wrapper">
-          <div class="card mt-4">
+          <div class="card mt-4" data-aos="zoom-out-up">
             <img src="assets/img/project/kukila.png" class="card-img-top" alt="...">
             <div class="card-body">
               <div class="d-flex justify-content-between align-items-center">
@@ -206,7 +208,7 @@
               <a href="https://muhammadnaufaljatiageng.github.io/kukila/" class="btn btn-primary">Selengkapnya</a>
             </div>
           </div>
-          <div class="card mt-4">
+          <div class="card mt-4" data-aos="zoom-out-up">
             <img src="assets/img/project/matahati.png" class="card-img-top" alt="...">
             <div class="card-body">
               <div class="d-flex justify-content-between align-items-center">
@@ -256,7 +258,15 @@
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-
+    <!-- Animate On Scroll from https://github.com/michalsnik/aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1200,
+        once: true,
+      });
+    </script>
+    <!-- My Script -->
     <script src="assets/js/script.js"></script>
   </body>
 </html>
