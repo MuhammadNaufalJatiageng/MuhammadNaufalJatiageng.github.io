@@ -85,7 +85,6 @@ a.nav-link {
     width: 25px;
     margin-left: 4px;
 }
-
 .sertifikat-wrapper ul{
     padding: 0;
 }
@@ -103,9 +102,6 @@ a.nav-link {
 .sertifikat-link a:hover {
     color: blue;
     text-decoration: underline;
-}
-.card {
-    z-index: -100;
 }
 #kontak {
     margin: 50px 0 10px;
