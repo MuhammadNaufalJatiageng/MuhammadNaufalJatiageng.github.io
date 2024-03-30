@@ -66,12 +66,13 @@ a.nav-link {
     display: flex;
     justify-content: start;
     flex-flow: wrap;
+    gap: 15px;
+}
+.accordion {
+    --bs-accordion-bg: transparent;
 }
 .skill-dd-item {
     border-bottom: 1px solid black;
-}
-.skill-item {
-    margin: 0 5px;
 }
 .skill-item img {
     width: 75px;
